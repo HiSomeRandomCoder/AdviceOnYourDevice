@@ -1,0 +1,33 @@
+footer {
+      background-color:gray;
+      padding: 25px;
+    }
+    
+  .carousel-inner img {
+      width: 25%; 
+      margin: auto;
+      min-height:200px;
+  }
+
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+.carousel-inner .carousel-caption{
+    color:white;
+    font-size: 25px;
+}
+#myCarousel{
+    background-color: crimson;
+}
+#logo{
+    border-radius: 50%;
+    width: 13%;
+}
+.line{
+height:6px;
+  background-color:black;
+  width:70px;
+  margin:8px auto;
+}
